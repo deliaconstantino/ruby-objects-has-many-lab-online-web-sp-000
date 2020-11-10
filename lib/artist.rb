@@ -17,4 +17,8 @@ class Artist
     new_song = Song.new(song)
     self.add_song(new_song)
   end
+
+  def self.class_count
+    Song.all.length
+  end
 end
