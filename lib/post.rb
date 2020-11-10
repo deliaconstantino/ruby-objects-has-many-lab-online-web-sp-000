@@ -17,8 +17,8 @@ class Post
   end
 
   def author_name
-    if Post.all.author.instance_variable_defined?(:name)
-      self.all.author.name
+    if self.author.instance_variable_defined?(:name)
+      self.author.name
     else
       nil
     end
