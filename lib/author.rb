@@ -6,6 +6,6 @@ class Author
   end
 
   def posts
-    
+    Post.all.self
   end
 end
