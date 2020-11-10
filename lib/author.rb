@@ -11,7 +11,6 @@ class Author
 
 
   def posts
-    Posts.all
-
+    Post.all
   end
 end
