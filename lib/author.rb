@@ -11,7 +11,7 @@ class Author
 
 
   def posts
-    Post.all.collect { |object| @name == self }
-    # Post.all.self.name
+    new_post = Post.new
+    
   end
 end
