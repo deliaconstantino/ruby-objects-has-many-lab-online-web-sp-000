@@ -8,9 +8,9 @@ class Song
     @@all << self
   end
 
-  def artist=(artist)
-    @artist = artist
-  end
+  # def artist=(artist)
+  #   @artist = artist
+  # end
 
   def artist_name
     if self.artist.instance_variable_defined?(:@name)
