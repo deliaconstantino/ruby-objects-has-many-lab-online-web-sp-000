@@ -7,6 +7,6 @@ class Author
 
   def posts
     # Post.all.collect { |object| }
-    Post.all.author.name
+    Post.all.self.name
   end
 end
