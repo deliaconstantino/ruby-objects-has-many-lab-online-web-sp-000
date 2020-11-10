@@ -13,12 +13,11 @@ class Song
   end
 
   def artist_name
-    # if
-      self.artist.instance_variable_defined?(:@name)
-    #   self.artist.name
+    if self.artist.instance_variable_defined?(:@name)
+      self.artist.name
     # # else
     # #   nil
-    # end
+    end
   end
 
   def self.all
