@@ -3,5 +3,7 @@ class Post
 
   @@all_posts = []
 
-  
+  def self.all
+    @@all_posts
+  end
 end
