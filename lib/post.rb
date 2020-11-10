@@ -15,4 +15,12 @@ class Post
   def self.all
     @@all
   end
+
+  def author_name
+    if self.all.author.instance_variable_defined?(:name)
+      self.all.author.name
+    else
+      nil
+    end
+  end
 end
