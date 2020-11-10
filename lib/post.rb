@@ -3,6 +3,8 @@ class Post
 
   @@all_posts = []
 
+  def initilize
+
   def self.all
     @@all_posts
   end
