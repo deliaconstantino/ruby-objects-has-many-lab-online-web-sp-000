@@ -15,8 +15,6 @@ class Song
   def artist_name
     if self.artist.instance_variable_defined?(:@name)
       self.artist.name
-    # # else
-    # #   nil
     end
   end
 
