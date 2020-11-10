@@ -11,7 +11,7 @@ class Author
 
 
   def posts
-    new_post = Post.new
+    Posts.all
     
   end
 end
