@@ -10,6 +10,7 @@ class Post
 
   def author=(author)
     @author = author
+  end
 
   def self.all
     @@all
