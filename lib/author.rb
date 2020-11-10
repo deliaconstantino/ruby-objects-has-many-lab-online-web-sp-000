@@ -6,7 +6,7 @@ class Author
   end
 
   def posts
-    # Post.all.collect { |object| }
-    Post.all.self.name
+    Post.all.collect { |object| @name == self }
+    # Post.all.self.name
   end
 end
